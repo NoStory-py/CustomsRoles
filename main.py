@@ -2,7 +2,7 @@ import discord
 from discord import app_commands
 import os
 
-TOKEN = os.getenv(BOT_TOKEN)
+TOKEN = os.getenv('BOT_TOKEN')
 
 intents = discord.Intents.default()
 intents.members = True  # Enable member intents
